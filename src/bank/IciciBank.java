@@ -4,7 +4,7 @@ import java.util.Scanner;                   // here we import scanner, logger an
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-public class FarjiBank1 extends Bank {
+public class IciciBank extends Bank {
 
     Scanner input = new Scanner(System.in);
     int balance;                                    // balance variable to keep track of balance
@@ -42,7 +42,7 @@ public class FarjiBank1 extends Bank {
                 Thread.sleep(500);                                                      //putting thread to sleep
 
             } catch (InterruptedException ex) {
-                Logger.getLogger(FarjiBank1.class.getName()).log(Level.SEVERE, null, ex); 
+                Logger.getLogger(IciciBank.class.getName()).log(Level.SEVERE, null, ex); 
             }
 
         }

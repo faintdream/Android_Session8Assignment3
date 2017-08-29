@@ -20,7 +20,7 @@ public abstract class Bank extends Thread {         // abstract Bank class exten
     
     public static void main(String[] args) {        // main section
 
-        FarjiBank1 objIcici = new FarjiBank1();       // creating object of FarjiBank1 class 
+        IciciBank objIcici = new IciciBank();       // creating object of FarjiBank1 class 
         FarjiBank objFarji = new FarjiBank();       // creating object of FarjiBank class
         Thread t11 = new Thread(objIcici);          // creating object of Thread class , purposed for synchronized execution
         Thread t12 = new Thread(objIcici);          // creating object of Thread class , purposed for synchronized execution 
